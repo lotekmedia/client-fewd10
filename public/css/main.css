@@ -81,3 +81,15 @@ nav a.selected{
 .contentImage.image-right{
     float: right;
 }
+
+#mainContent.services h2{
+    transform: rotate(-90deg);
+    position: relative;
+    left: -500px;
+    top: -190px;
+}
+
+section:nth-child(odd){
+    background-color: aliceblue;
+    padding: 10px;
+}

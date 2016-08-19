@@ -1,0 +1,22 @@
+{
+  "name": "client-fewd10",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lotekmedia/client-fewd10.git"
+  },
+  "author": "me",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lotekmedia/client-fewd10/issues"
+  },
+  "homepage": "https://github.com/lotekmedia/client-fewd10#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
