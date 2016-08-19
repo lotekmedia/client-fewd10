@@ -1,20 +1,39 @@
-body{
+html,body{
     margin: 0;
     padding: 0;
 }
 
-header{
+header, footer{
     background-color: #ddd;
     width: 100%;
     height: 150px;
 }
 
-header div.imgContainer{
+header h2, footer h2{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
+
+header div.imgContainer, footer div.imgContainer{
     width: 100px;
+    padding: 10px;
+    float: left;
+}
+
+footer .copyright{
+    float: left;
+    font-size: 12px;
     padding: 10px;
 }
 
-header img{
+footer nav a.fa{
+    font-size: 50px;
+}
+
+header img, footer img{
     border-radius: 50px;
     width: 100%;
 }
@@ -35,4 +54,30 @@ nav a{
 nav a:hover{
     background-color: #777;
     color: #fff;
+}
+
+nav a.selected{
+    background-color: #55adab;
+    color: #fff;
+}
+
+/* Main Content */
+#mainContent{
+    clear: both;
+    max-width: 800px;
+    margin: auto;
+    width: 800px;
+}
+.contentImage{
+    width: 20%;
+    margin: 10px;
+    float: left;
+}
+
+.contentImage img{
+    width: 100%;
+}
+
+.contentImage.image-right{
+    float: right;
 }
